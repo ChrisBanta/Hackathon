@@ -3,6 +3,7 @@
 In order to post a new request for a sunrise time you need to give the paramaters of lat, lng, and date.
 For example if you were to send a post request with http://localhost:3000/sunrises?lat=47&lng=-25&date=2018-10-23
 you will recieve the JSON data of 
+
 {
     "results": {
         "sunrise": "1:11:03 AM",
